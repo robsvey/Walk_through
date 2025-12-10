@@ -1,0 +1,81 @@
+body{
+    background-color: tan;
+    color:aqua
+}
+
+h1{
+    font-size: 36px;
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+
+}
+h2{
+    font-size: 24px;
+    color:black;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+}
+li{
+    font-size: 12px;
+    color: darkblue;
+    text-align: left;
+
+}
+
+
+#aquagraph{
+color: aqua;
+}
+.header{
+    z-index: 8;
+
+}
+.picture{
+    position: relative;
+    z-index: 10;
+}
+.AFC{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.common{
+    background-color: tan;
+    border: 2px solid white;
+    position: absolute;
+
+}
+
+.left{
+    top: 815px;
+    left: 15px;
+    width: 150px;
+    bottom: -50px;
+}
+.redtext{
+    color: red;
+}
+.main{
+    top: 850px;
+    left: 15px;
+    right: 140px;
+    bottom: -50px;
+    width: 150px;
+}
+.right{
+    top: 115px;
+    right: 25px;
+    width: 100px;
+    height: 100px;
+}
+.footer{
+    bottom: 15px;
+    height: 25px;
+    left: 500px;
+    right: 500px;
+    position: fixed;
+    background-color: tan;
+    border: 2px solid white;
+    text-align: center;
+
+}
